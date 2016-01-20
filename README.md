@@ -35,7 +35,7 @@ Use ant in your source project main folder.
 
 3. Define in XML Schema a role grant type using your custom code to be replaced by session var value, enclosed in % (e.g. %USER_NAME%), sample as follow (the Agent can see his/her commission amount and all related sub-agents defined with a parent-child relation, using closure table):
 
-   <Role name="Agents">
+"   <Role name="Agents">
     <SchemaGrant access="none">
         <CubeGrant cube="Agency Commission" access="all">
             <HierarchyGrant hierarchy="[Agents]" rollupPolicy="partial" access="custom">
@@ -46,7 +46,7 @@ Use ant in your source project main folder.
             </HierarchyGrant>
         </CubeGrant>
     </SchemaGrant>
-   </Role>
+   </Role>"
 		
 4. Define in Pentaho a startup action that set "USERNAME" at user login (using a sample ktr job with Startup Rule Engine plugin).
    Put the ktr file in $PENTAHO_HOME\pentaho-solutions\system\startupRules\rules\{your kettle file}.ktr
