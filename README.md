@@ -27,7 +27,7 @@ Compilation requires the following packages coming with Pentaho:
 
 Use ant in your source project main folder. 
 
-1. Compile com.mysample.mondrian.dsp with custom code (e.g. "USERNAME") using same java version running pentaho server
+1. Compile com.mysample.mondrian.dsp with your session var (e.g. "USERNAME") using the same java version running pentaho server.
 
 ##Deployment
 
