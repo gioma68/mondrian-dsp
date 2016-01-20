@@ -23,7 +23,7 @@ import org.pentaho.platform.engine.core.system.PentahoSessionHolder;
 import org.apache.log4j.Logger;
 import java.io.InputStream;
 import java.util.regex.PatternSyntaxException; 
-/* used to log to console for first debug purpose */
+/* used to log to console for debugging purpose */
 import static java.lang.System.out;
 
 public class DynamicSchemaProcessor extends LocalizingDynamicSchemaProcessor {
