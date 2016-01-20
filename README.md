@@ -39,8 +39,8 @@ Use ant in your source project main folder.
 4. Define in Pentaho a startup action that set "USERNAME" at user login (using a sample ktr job with Startup Rule Engine plugin)
    see $PENTAHO_HOME\pentaho-solutions\system\startupRules\rules\avacspro\ap_setSessionVariable.ktr
 	
-5. Configuring the DSP in pentaho connection
-	The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
-	In Pentaho 5.0, you will no longer use the "datasources.xml" file to configure Mondrian catalogs. Instead, you will set 
-	the properties when importing a Mondrian schema into the Pentaho repository.
+5. Configuring the DSP in pentaho connection.
+   The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
+   In Pentaho 5.0, you will no longer use the "datasources.xml" file to configure Mondrian catalogs. Instead, you will set 
+   the properties when importing a Mondrian schema into the Pentaho repository (see the referenced how-to).
 
