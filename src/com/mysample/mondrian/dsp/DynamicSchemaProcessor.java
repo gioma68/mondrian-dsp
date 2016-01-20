@@ -8,10 +8,8 @@
 *
 * @author gmartano
 * @since Jan 2016
+* @version 1.0.0
 *
-*
-* 
-* Copyright (c) 2016 Arena Cube.  All rights reserved.
 */
 package com.arenacube.mondrian.dsp;
 
@@ -31,9 +29,9 @@ import static java.lang.System.out;
 public class DynamicSchemaProcessor extends LocalizingDynamicSchemaProcessor {
 	private static final Logger LOG = Logger.getLogger(DynamicSchemaProcessor.class);
 
-    /** Creates a new instance of class */
-    public DynamicSchemaProcessor() {
-    }
+	/** Creates a new instance of class */
+	public DynamicSchemaProcessor() {
+	}
 	
 	@Override
 	public String filter(String schemaUrl, Util.PropertyList connectInfo, InputStream stream)
