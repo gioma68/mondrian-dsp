@@ -34,6 +34,7 @@ Use ant in your source project main folder.
 2. Ant script releases **com.mysample.mondrian.dsp-1.x.jar** file in the dist directory. To deploy the extension, the jar file from **dist** directory should be simply copied into Pentaho lib directory (tomcat/webapps/pentaho/WEB-INF/lib). 
 
 3. Define in XML Schema a role grant type using your custom code to be replaced by session var value, enclosed in % (e.g. %USER_NAME%), sample as follow (the Agent can see his/her commission amount and all related sub-agents defined with a parent-child relation, using closure table):
+
     :
    <Role name="Agents">
     <SchemaGrant access="none">
