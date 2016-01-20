@@ -33,7 +33,7 @@ Use ant in your source project main folder.
 
 2. Ant script releases **com.mysample.mondrian.dsp-1.x.jar** file in the dist directory. To deploy the extension, the jar file from **dist** directory should be simply copied into Pentaho lib directory (tomcat/webapps/pentaho/WEB-INF/lib). 
 
-3. Define in XML Schema a role grant type using your custom code to be replaced by session var value, enclosed in % (e.g. %USER_NAME%). My working example (the Agent can see only his/her commission amount and all related his/her sub-agents, defined with a parent-child relation using closure table):
+3. Define in Mondrian XML Schema, a role grant type using your custom code to be replaced by session var value, enclosed in % (e.g. %USER_NAME%). My working example (the Agent can see only his/her commission amount and all related his/her sub-agents, defined with a parent-child relation using closure table):
 ```xml
   <Role name="Agents">
     <SchemaGrant access="none">
@@ -56,4 +56,6 @@ Use ant in your source project main folder.
    The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
    In Pentaho 5.0, you will no longer use the "datasources.xml" file to configure Mondrian catalogs. Instead, you will set 
    the properties when importing a Mondrian schema into the Pentaho repository (see the referenced how-to).
+
+6. Login in pentaho with different user/role and see how it works.
 
