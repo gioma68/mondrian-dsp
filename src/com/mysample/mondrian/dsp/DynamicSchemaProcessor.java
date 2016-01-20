@@ -11,7 +11,7 @@
 * @version 1.0.0
 *
 */
-package com.arenacube.mondrian.dsp;
+package com.mysample.mondrian.dsp;
 
 import mondrian.olap.Util;
 import mondrian.spi.*;
