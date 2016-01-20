@@ -13,7 +13,7 @@ The DSP is not specific to Pentaho, although the way we’ll configure it here i
 ##Compilation
 
 To make it simpler, needed external libraries are included into embedded lib directory. 
-All other dependences are related to Pentaho and Java, and are available in assembled Pentaho platform. 
+All other dependences are related to Pentaho and Java, and are available in assembled Pentaho platform (I'm using Pentaho BI CE 5.4.0). 
 
 Compilation requires the following packages coming with Pentaho: 
 
