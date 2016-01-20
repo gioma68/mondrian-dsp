@@ -22,7 +22,8 @@ Compilation requires the following packages coming with Pentaho:
     - slf4j-api-1.7.3.jar 
     - pentaho-platform-core-5.4.0.1-130.jar
 	- pentaho-platform-api-5.4.0.1-130.jar
-	- ServletAPI (**servlet-api.jar** - is the only jar which is not available in Pentaho lib, but it is always coming with any Java Container)
+	- ServletAPI (**servlet-api.jar** - is the only jar which is not available in Pentaho lib, 
+	  but it is always coming with any Java Container)
 
 Use ant in your source project main folder. 
 
