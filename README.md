@@ -1,5 +1,7 @@
 # mondrian-dsp
-a simple ant project to create a custom Mondrian Schema DSP (DynamicSchemaProcessor) for Pentaho
+A simple ant project to create a custom Mondrian Schema DSP (DynamicSchemaProcessor) for Pentaho, following suggestion from
+this how-to http://thejavatar.com/dynamic-schema-processor-modify-mondrian-schema-in-run-time/ for the how-to. Thanks very much
+to this guys.
 
 A dynamic schema processor (DSP) is a custom processor that’s run whenever Mondrian makes a connection. Prior to Mondrian using the schema, the DSP can modify the schema. 
 There are no restrictions on what modifications can be made, but the two most common uses of a DSP are to support localization and to restrict access to data in multi-tenanted environments. 
@@ -40,4 +42,4 @@ Use ant in your source project main folder.
 	The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
 	In Pentaho 5.0, you will no longer use the "datasources.xml" file to configure Mondrian catalogs. Instead, you will set 
 	the properties when importing a Mondrian schema into the Pentaho repository.
-	see in http://thejavatar.com/dynamic-schema-processor-modify-mondrian-schema-in-run-time/ for the how-to.
+
