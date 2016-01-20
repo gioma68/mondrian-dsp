@@ -27,17 +27,17 @@ Compilation requires the following packages coming with Pentaho:
 
 Use ant in your source project main folder. 
 
-1. Compile com.arenacube.mondrian.dsp with custom code (e.g. "USERNAME") using same java version running pentaho server
+1. Compile com.mysample.mondrian.dsp with custom code (e.g. "USERNAME") using same java version running pentaho server
 
 ##Deployment
 
-2. Ant script releases **com.arenacube.mondrian.dsp-1.x.jar** file in the dist directory. To deploy the extension, the jar file from **dist** directory should be simply copied into Pentaho lib directory (tomcat/webapps/pentaho/WEB-INF/lib). 
+2. Ant script releases **com.mysample.mondrian.dsp-1.x.jar** file in the dist directory. To deploy the extension, the jar file from **dist** directory should be simply copied into Pentaho lib directory (tomcat/webapps/pentaho/WEB-INF/lib). 
 
 3. Define in XML Schema the follow role grant type using your custom code to replace, enclosed in % (e.g. %USER_NAME%)
 	!TBD
 		
-4. Define in Pentaho a startup action that set "USERNAME" at user login (using a sample ktr job with Startup Rule Engine plugin)
-   see $PENTAHO_HOME\pentaho-solutions\system\startupRules\rules\avacspro\ap_setSessionVariable.ktr
+4. Define in Pentaho a startup action that set "USERNAME" at user login (using a sample ktr job with Startup Rule Engine plugin).
+   Put the ktr file in $PENTAHO_HOME\pentaho-solutions\system\startupRules\rules\{your kettle file}.ktr
 	
 5. Configuring the DSP in pentaho connection.
    The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
