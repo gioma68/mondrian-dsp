@@ -38,7 +38,7 @@ Use ant in your source project main folder.
 
 3. Define in Mondrian XML Schema, a role grant type using your custom code to be replaced by session var value, enclosed in % (e.g. %USER_NAME%). My working example (the Agent can see only his/her commission amount and all related his/her sub-agents, defined with a parent-child relation using closure table):
 ```xml
-  <Role name="Agents">
+  <Role name="Agents Role">
     <SchemaGrant access="none">
         <CubeGrant cube="Agency Commission" access="all">
             <HierarchyGrant hierarchy="[Agents]" rollupPolicy="partial" access="custom">
