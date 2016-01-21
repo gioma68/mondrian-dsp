@@ -59,3 +59,6 @@ Use ant in your source project main folder.
 
 6. Login in pentaho with different user/role and see how it works (**work well with Pivot4J plugin for Pentaho CE 5.4.0**, JPivot seems to be indifferent to role definitions because don't use Pentaho connections definition).
 
+**NOTE**
+If modify the source java code for DSP and rebuild jar lib, you must first stop Pentaho, redeploy the jar in the Pentaho lib (overvriting, or removing the older) and restart pentaho
+
