@@ -10,6 +10,9 @@ The DSP is a mondrian feature
 =============================
 "The DSP is not specific to Pentaho, although the way we’ll configure it here is. Any system that includes Mondrian as the analytics engine can use dynamic schema processors (DSP)." (from official Mondrian documentation)
 
+##The requirements 
+My company want to filter sales data for Agent Dimension. One Agent can log in Pentaho and **see only his data and related sub-agent** (hierarchy agent-sub agent is defined in a closure table). I can't do a Role for every Agent because the dimension is SCD type 2 (so the structure/relation between agent/sub-agent can vary in time).
+
 ##Compilation
 
 To make it simpler, needed external libraries are included into embedded lib directory. 
