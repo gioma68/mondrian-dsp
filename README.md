@@ -13,7 +13,7 @@ The DSP is a mondrian feature
 ##Compilation
 
 To make it simpler, needed external libraries are included into embedded lib directory. 
-All other dependences are related to Pentaho and Java, and are available in assembled Pentaho platform (I'm using Pentaho BI CE 5.4.0). 
+All other dependences are related to Pentaho and Java, and are available in assembled Pentaho platform (I'm using **Pentaho BI CE 5.4.0**). 
 
 Compilation requires the following packages coming with Pentaho: 
 
@@ -57,5 +57,5 @@ Use ant in your source project main folder.
    In Pentaho 5.0, you will no longer use the "datasources.xml" file to configure Mondrian catalogs. Instead, you will set 
    the properties when importing a Mondrian schema into the Pentaho repository (see the referenced how-to).
 
-6. Login in pentaho with different user/role and see how it works (work well with Pivot4J plugin for Pentaho CE 5.4.0, JPivot seems      to be indifferent to role definitions).
+6. Login in pentaho with different user/role and see how it works (**work well with Pivot4J plugin for Pentaho CE 5.4.0**, JPivot seems to be indifferent to role definitions because don't use Pentaho connections definition).
 
