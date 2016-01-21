@@ -53,7 +53,7 @@ Use ant in your source project main folder.
 ```
 
 4. Define in Pentaho a startup action that set "USERNAME" at user login (using a sample ktr job with Startup Rule Engine plugin).
-   Put the ktr file in $PENTAHO_HOME\pentaho-solutions\system\startupRules\rules\{your kettle file}.ktr
+   Put the ktr file in $PENTAHO_HOME/pentaho-solutions/system/startupRules/rules/{your kettle file}.ktr
 	
 5. Configuring the DSP in pentaho connection.
    The last step required to get a DSP to work is to tell Mondrian to use the dynamic schema processor for this schema.
