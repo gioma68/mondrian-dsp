@@ -27,7 +27,7 @@ Compilation requires the following packages coming with Pentaho:
 
 Use ant in your source project main folder. 
 
-1. Compile com.mysample.mondrian.dsp with your session var (e.g. "USERNAME") using the same java version running pentaho server.
+1. Compile com.mysample.mondrian.dsp where you set the session var to use as value for the XML Schema placeolder (in my example "USERNAME", change it in the main class as you need), and - to comile - use the same java version running pentaho server.
 
 ##Deployment
 
