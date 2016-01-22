@@ -65,3 +65,8 @@ Use ant in your source project main folder.
 **NOTE**
 If modify the source java code for DSP and rebuild jar lib, you must first stop Pentaho, redeploy the jar in the Pentaho lib (overwriting, or removing the older) and restart pentaho
 
+**UPDATE**
+If you need only the specific session value for user you can change the line of code where get the session value with
+`String usercode = session.getName().toString();`, this permit to avoid the use a startup kettle job to set you session var.
+
+
