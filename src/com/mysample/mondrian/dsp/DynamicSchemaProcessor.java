@@ -39,6 +39,9 @@ public class DynamicSchemaProcessor extends LocalizingDynamicSchemaProcessor {
 			String schema = super.filter(schemaUrl, connectInfo, stream);
 			System.out.println("[CUSTOM.DSP] *********** Started DSP Custom ***********");
 			IPentahoSession session = PentahoSessionHolder.getSession();
+			// if you need only the default Pentaho username session var, not a specific one,
+			// you can change the code with: String usercode = session.getName().toString();
+			// this avoid to use a startup kettle job
 			String usercode = (String) session.getAttribute("USERNAME");
 			try {
 				System.out.println("[CUSTOM.DSP] Trying to replace '%USER_NAME%' with session value: "+usercode);
