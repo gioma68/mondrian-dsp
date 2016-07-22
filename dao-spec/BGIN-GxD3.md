@@ -1,16 +1,15 @@
-FOR **(BGIN.GxD3)** created DAO `bginGxD3Query_MW`
+FOR **BGIN.GxD3** created DAO `bginGxD3Query_Month` for **MONTH** Level aggregation
 with params
-> * period_start = **[YYYY].[MM]** (+[WW] if period = Week eg `[2016].[5].[19]` for the 13st week of 2016 that is in April month)
-> * period_end = **[YYYY].[MM]** (+[WW] if period = Week eg `[2016].[7].[29]` for the 29st week of 2016 that is in July month)
-> * period = **Week|Month** (first letter Uppercase, eg `Week`) to select the aggregation level
+> * period_start = **[YYYY].[MM]** (where YYYY=year and MM=Month without 0 for valuse <10 eg `[2016].[4]`)
+> * period_end = **[YYYY].[MM]** (where YYYY=year and MM=Month without 0 for valuse <10 eg `[2016].[10]`)
 > * org_name = **[Organization name]** (eg `[AssosPlayCOM]`) 
 
 URL CALL 
 ```bash
-http://bap.avacspro.com/pentaho/plugin/cda/api/doQuery?path=/public/AvacsPro/api/asm/bgin-widget.cda&dataAccessId=bginGxD3Query_MW&paramperiod_start=[2016].[5].[19]&paramperiod_end=[2016].[7].[29]&paramorg_name=[AssosPlayCOM]&paramperiod=Week
+http://bap.avacspro.com/pentaho/plugin/cda/api/doQuery?path=/public/AvacsPro/api/asm_v3/bgin-widget.cda&dataAccessId=bginGxD3Query_Month&paramperiod_start=[2016].[4]&paramperiod_end=[2016].[7]&paramorg_name=[AssosPlayCOM]
 ```
 
-JSON RESPONSE (for` Week` level)
+JSON RESPONSE
 ```
 {  
    "queryInfo":{  
