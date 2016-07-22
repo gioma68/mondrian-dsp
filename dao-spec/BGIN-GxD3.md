@@ -1,4 +1,5 @@
-###FOR **BGIN.GxD3** created DAO `bginGxD3Query_Month` for **MONTH** Level aggregation with params###
+FOR **BGIN.GxD3** created DAO `bginGxD3Query_Month` for **MONTH** Level aggregation with params
+---------------
 
 > * period_start = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for valuse <10 eg `[2016].[4]`)
 > * period_end = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for valuse <10 eg `[2016].[10]`)
