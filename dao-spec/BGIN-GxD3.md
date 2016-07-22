@@ -6,379 +6,127 @@ with params
 
 URL CALL 
 ```bash
-http://bap.avacspro.com/pentaho/plugin/cda/api/doQuery?path=/public/AvacsPro/api/asm_v3/bgin-widget.cda&dataAccessId=bginGxD3Query_Month&paramperiod_start=[2016].[4]&paramperiod_end=[2016].[7]&paramorg_name=[AssosPlayCOM]
+http://bap.avacspro.com/pentaho/plugin/cda/api/doQuery?path=/public/AvacsPro/api/asm/bgin-widget.cda&dataAccessId=bginGxD3Query_Month&paramperiod_start=[2016].[4]&paramperiod_end=[2016].[7]&paramorg_name=[AssosPlayCOM]
 ```
 
 JSON RESPONSE
 ```
 {  
    "queryInfo":{  
-      "totalRows":"52"
+      "totalRows":"16"
    },
    "resultset":[  
       [  
          "All Section Areas",
-         "19",
-         "[2016].[5].[19]",
-         2994.58,
-         -8.81025609793234
+         "4",
+         "[2016].[4]",
+         14167.74,
+         47.47508814004976
       ],
       [  
          "All Section Areas",
-         "20",
-         "[2016].[5].[20]",
-         5929.24,
-         97.99905161992668
+         "5",
+         "[2016].[5]",
+         60639.27,
+         328.00947787014724
       ],
       [  
          "All Section Areas",
-         "21",
-         "[2016].[5].[21]",
-         24763.29,
-         317.64694969338404
+         "6",
+         "[2016].[6]",
+         29297.35,
+         -51.68584648199096
       ],
       [  
          "All Section Areas",
-         "22",
-         "[2016].[5].[22]",
-         23368.26,
-         -5.633459851255639
-      ],
-      [  
-         "All Section Areas",
-         "22",
-         "[2016].[6].[22]",
-         6423.02,
-         -72.51391417247154
-      ],
-      [  
-         "All Section Areas",
-         "23",
-         "[2016].[6].[23]",
-         6022.12,
-         -6.241612201114126
-      ],
-      [  
-         "All Section Areas",
-         "24",
-         "[2016].[6].[24]",
-         5201.22,
-         -13.631412193712508
-      ],
-      [  
-         "All Section Areas",
-         "25",
-         "[2016].[6].[25]",
-         5771.03,
-         10.955314330099467
-      ],
-      [  
-         "All Section Areas",
-         "26",
-         "[2016].[6].[26]",
-         5879.96,
-         1.8875313418921804
-      ],
-      [  
-         "All Section Areas",
-         "26",
-         "[2016].[7].[26]",
-         197.38,
-         -96.64317444336355
-      ],
-      [  
-         "All Section Areas",
-         "27",
-         "[2016].[7].[27]",
-         1755.07,
-         789.183301246327
-      ],
-      [  
-         "All Section Areas",
-         "28",
-         "[2016].[7].[28]",
-         1929.33,
-         9.928948702900739
-      ],
-      [  
-         "All Section Areas",
-         "29",
-         "[2016].[7].[29]",
-         425.82,
-         -77.92912565502014
+         "7",
+         "[2016].[7]",
+         7837.18,
+         -73.24952598101876
       ],
       [  
          "Casino Section",
-         "19",
-         "[2016].[5].[19]",
-         19.55,
-         388.75
+         "4",
+         "[2016].[4]",
+         227.95,
+         -82.44715666268817
       ],
       [  
          "Casino Section",
-         "20",
-         "[2016].[5].[20]",
-         5298.8,
-         27003.836317135552
+         "5",
+         "[2016].[5]",
+         50187.88,
+         21917.056372011408
       ],
       [  
          "Casino Section",
-         "21",
-         "[2016].[5].[21]",
-         21591.88,
-         307.4862232958406
+         "6",
+         "[2016].[6]",
+         19773.95,
+         -60.60014888056639
       ],
       [  
          "Casino Section",
-         "22",
-         "[2016].[5].[22]",
-         23273.65,
-         7.788900271768834
-      ],
-      [  
-         "Casino Section",
-         "22",
-         "[2016].[6].[22]",
-         3281.3,
-         -85.90122305697646
-      ],
-      [  
-         "Casino Section",
-         "23",
-         "[2016].[6].[23]",
-         1393.95,
-         -57.51836162496572
-      ],
-      [  
-         "Casino Section",
-         "24",
-         "[2016].[6].[24]",
-         4231.5,
-         203.56182072527707
-      ],
-      [  
-         "Casino Section",
-         "25",
-         "[2016].[6].[25]",
-         5256.45,
-         24.221907125132926
-      ],
-      [  
-         "Casino Section",
-         "26",
-         "[2016].[6].[26]",
-         5610.75,
-         6.740290500242563
-      ],
-      [  
-         "Casino Section",
-         "26",
-         "[2016].[7].[26]",
-         1.1,
-         -99.98039477788174
-      ],
-      [  
-         "Casino Section",
-         "27",
-         "[2016].[7].[27]",
-         1256.66,
-         114141.81818181819
-      ],
-      [  
-         "Casino Section",
-         "28",
-         "[2016].[7].[28]",
-         18.7,
-         -98.51192844524374
-      ],
-      [  
-         "Casino Section",
-         "29",
-         "[2016].[7].[29]",
-         null,
-         -100
+         "7",
+         "[2016].[7]",
+         4250.91,
+         -78.50247421481292
       ],
       [  
          "Arena Section",
-         "19",
-         "[2016].[5].[19]",
-         8,
-         100
+         "4",
+         "[2016].[4]",
+         32,
+         -11.11111111111111
       ],
       [  
          "Arena Section",
-         "20",
-         "[2016].[5].[20]",
-         3,
-         -62.5
+         "5",
+         "[2016].[5]",
+         15,
+         -53.125
       ],
       [  
          "Arena Section",
-         "21",
-         "[2016].[5].[21]",
-         null,
-         -100
+         "6",
+         "[2016].[6]",
+         6,
+         -60
       ],
       [  
          "Arena Section",
-         "22",
-         "[2016].[5].[22]",
-         null,
-         null
-      ],
-      [  
-         "Arena Section",
-         "22",
-         "[2016].[6].[22]",
-         2,
-         null
-      ],
-      [  
-         "Arena Section",
-         "23",
-         "[2016].[6].[23]",
-         null,
-         -100
-      ],
-      [  
-         "Arena Section",
-         "24",
-         "[2016].[6].[24]",
-         null,
-         null
-      ],
-      [  
-         "Arena Section",
-         "25",
-         "[2016].[6].[25]",
-         2,
-         null
-      ],
-      [  
-         "Arena Section",
-         "26",
-         "[2016].[6].[26]",
-         2,
-         0
-      ],
-      [  
-         "Arena Section",
-         "26",
-         "[2016].[7].[26]",
-         1,
-         -50
-      ],
-      [  
-         "Arena Section",
-         "27",
-         "[2016].[7].[27]",
-         12,
-         1100
-      ],
-      [  
-         "Arena Section",
-         "28",
-         "[2016].[7].[28]",
-         21,
-         75
-      ],
-      [  
-         "Arena Section",
-         "29",
-         "[2016].[7].[29]",
-         28,
-         33.33333333333333
+         "7",
+         "[2016].[7]",
+         64.1,
+         968.3333333333331
       ],
       [  
          "Sport Section",
-         "19",
-         "[2016].[5].[19]",
-         2967.03,
-         -9.428553985164378
+         "4",
+         "[2016].[4]",
+         13907.79,
+         68.12645214948347
       ],
       [  
          "Sport Section",
-         "20",
-         "[2016].[5].[20]",
-         627.44,
-         -78.85292700107514
+         "5",
+         "[2016].[5]",
+         10436.39,
+         -24.96011228239714
       ],
       [  
          "Sport Section",
-         "21",
-         "[2016].[5].[21]",
-         3171.41,
-         405.4523141654978
+         "6",
+         "[2016].[6]",
+         9517.4,
+         -8.805631065914552
       ],
       [  
          "Sport Section",
-         "22",
-         "[2016].[5].[22]",
-         94.61,
-         -97.01678433252087
-      ],
-      [  
-         "Sport Section",
-         "22",
-         "[2016].[6].[22]",
-         3139.72,
-         3218.5921149984138
-      ],
-      [  
-         "Sport Section",
-         "23",
-         "[2016].[6].[23]",
-         4628.17,
-         47.40709362618324
-      ],
-      [  
-         "Sport Section",
-         "24",
-         "[2016].[6].[24]",
-         969.72,
-         -79.0474420775382
-      ],
-      [  
-         "Sport Section",
-         "25",
-         "[2016].[6].[25]",
-         512.58,
-         -47.14144289073134
-      ],
-      [  
-         "Sport Section",
-         "26",
-         "[2016].[6].[26]",
-         267.21,
-         -47.86960084279528
-      ],
-      [  
-         "Sport Section",
-         "26",
-         "[2016].[7].[26]",
-         195.28,
-         -26.918902735676053
-      ],
-      [  
-         "Sport Section",
-         "27",
-         "[2016].[7].[27]",
-         486.41,
-         149.08336747234742
-      ],
-      [  
-         "Sport Section",
-         "28",
-         "[2016].[7].[28]",
-         1889.63,
-         288.48502292304846
-      ],
-      [  
-         "Sport Section",
-         "29",
-         "[2016].[7].[29]",
-         397.82,
-         -78.94720130395898
+         "7",
+         "[2016].[7]",
+         3522.17,
+         -62.99230882383844
       ]
    ],
    "metadata":[  
@@ -390,7 +138,7 @@ JSON RESPONSE
       {  
          "colIndex":1,
          "colType":"String",
-         "colName":"Time.Weekly"
+         "colName":"Period"
       },
       {  
          "colIndex":2,
@@ -412,7 +160,7 @@ JSON RESPONSE
 ```
 WHERE METADATA
 > * **Section Area**: Column for Section/Product (All , Arena, Sport, Casino section) 
-> * **Time.Weekly**: Column for Low level time dimension value for the the selected aggregation  level  (Month/Week) 
-> * **Period_id**: Column for time complete value for selected level with format [YYYY].[MM]|+[WW](eg for week: [2016].[5].[19]) 
-> * **BetAmount**: Column for Bet Amount summed over the selected aggregation level (Month/Week)
-> * **BetPercent**: Column for Bet % change calculated over the selected aggregation level (Month/Week)
+> * **Period**: Column for Low level time dimension single value 
+> * **Period_id**: Column for time complete value for the aggregation level with format [YYYY].[MM]| (eg. `[2016].[4]`) 
+> * **BetAmount**: Column for Bet Amount summed over the aggregation level 
+> * **BetPercent**: Column for Bet % change calculated over the aggregation level
