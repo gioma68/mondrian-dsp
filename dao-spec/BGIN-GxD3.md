@@ -552,6 +552,6 @@ JSON RESPONSE
 WHERE METADATA
 > * **Section Area**: Column for Section/Product (All , Arena, Sport, Casino section). 
 > * **Period**: Column for Low level time dimension single value. 
-> * **Period_id**: Column for time complete value for the aggregation level with format [YYYY].[WW] (where YYYY=year and WW=week eg. `[2016].[29]` using the Standard `ISO 8601` convention numbering). 
+> * **Period_id**: Column for time complete value for the aggregation level with format \[YYYY].[WW\] (where YYYY=year and WW=week eg. `[2016].[29]` using the Standard `ISO 8601` convention numbering). 
 > * **BetAmount**: Column for Bet Amount summed over the aggregation level. 
 > * **BetPercent**: Column for Bet % change calculated over the aggregation level.
