@@ -168,7 +168,7 @@ WHERE METADATA
 FOR **BGIN.GxD3** created DAO `bginGxD3Query_Week` for **WEEK** Level aggregation
 with params
 > * period_start = **[YYYY].[MM].[DD]** (where YYYY=year, MM=Month and DD=Day without 0 for valuse <10 eg `[2016].[5].[8]`)
-> * period_end = **[YYYY].[MM]** (where YYYY=year, MM=month and DD=day without 0 for valuse <10 eg `[2016].[7].[18]`)
+> * period_end = **[YYYY].[MM].[DD]** (where YYYY=year, MM=month and DD=day without 0 for valuse <10 eg `[2016].[7].[18]`)
 > * org_name = **[Organization name]** (eg `[AssosPlayCOM]`) 
 
 URL CALL 
