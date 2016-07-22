@@ -1,7 +1,8 @@
 FOR **TNET.GxD5** created DAO `tnetGxD5Query_Month` for **MONTH** Level aggregation
+--------------------
 with params
-> * period_start = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for valuse <10 eg `[2016].[4]`)
-> * period_end = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for valuse <10 eg `[2016].[10]`)
+> * period_start = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for values <10 eg `[2016].[4]`)
+> * period_end = **[YYYY].[MM]** (where YYYY=year and MM=month without 0 for values <10 eg `[2016].[10]`)
 > * org_name = **[Organization name]** (eg `[AssosPlayCOM]`) 
 
 URL CALL 
@@ -138,7 +139,7 @@ JSON RESPONSE
       {  
          "colIndex":1,
          "colType":"String",
-         "colName":"Time"
+         "colName":"Period"
       },
       {  
          "colIndex":2,
@@ -160,15 +161,16 @@ JSON RESPONSE
 ```
 WHERE METADATA
 > * **Section Area**: Column for Section/Product (All , Arena, Sport, Casino section) 
-> * **Time**: Column for Low level time dimension single value 
+> * **Period**: Column for Low level time dimension single value 
 > * **Period_id**: Column for time complete value for the aggregation level with format [YYYY].[MM]| (where YYYY=year and MM=month eg. `[2016].[4]`) 
 > * **NetProfit**: Column for Net Profit summed over the aggregation level 
 > * **NetPercent**: Column for Net % change calculated over the aggregation level
 
 FOR **TNET.GxD5** created DAO `tnetGxD5Query_Week` for **WEEK** Level aggregation
+--------------------
 with params
-> * period_start = **[YYYY].[MM].[DD]** (where YYYY=year, MM=Month and DD=Day without 0 for valuse <10 eg `[2016].[5].[8]`)
-> * period_end = **[YYYY].[MM].[DD]** (where YYYY=year, MM=month and DD=day without 0 for valuse <10 eg `[2016].[7].[18]`)
+> * period_start = **[YYYY].[MM].[DD]** (where YYYY=year, MM=Month and DD=Day without 0 for values <10 eg `[2016].[5].[8]`)
+> * period_end = **[YYYY].[MM].[DD]** (where YYYY=year, MM=month and DD=day without 0 for values <10 eg `[2016].[7].[18]`)
 > * org_name = **[Organization name]** (eg `[AssosPlayCOM]`) 
 
 URL CALL 
