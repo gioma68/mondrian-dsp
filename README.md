@@ -15,20 +15,7 @@ My company want to filter sales data for Agent Dimension. One Agent can log in P
 
 ##Compilation
 
-To make it simpler, needed external libraries are included into embedded lib directory. 
-All other dependences are related to Pentaho and Java, and are available in assembled Pentaho platform (I'm using **Pentaho BI CE 5.4.0**). 
-
-Compilation requires the following packages coming with Pentaho: 
-
-	- mondrian-3.10.0.1-130.jar
-    - log4j-1.2.17.jar
-    - slf4j-api-1.7.3.jar 
-    - pentaho-platform-core-5.4.0.1-130.jar
-	- pentaho-platform-api-5.4.0.1-130.jar
-	- ServletAPI (**servlet-api.jar** - is the only jar which is not available in Pentaho lib, 
-	  but it is always coming with any Java Container)
-
-Use ant in your source project main folder. 
+Use `ant` in your source project main folder. 
 
 1. Compile **com.mysample.mondrian.dsp** where you **set the session var to use as value for the XML Schema placeolder** (in my example "USERNAME", change it in the main class as you need), and - to compile - use the same java version running pentaho server.
 
